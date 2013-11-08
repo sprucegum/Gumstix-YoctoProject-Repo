@@ -5,6 +5,7 @@
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://github.com/openembedded" />
   <remote name="ros" fetch="git://github.com/bmwcarit" />
+  <remote name="sprucegum" fetch="git://github.com/sprucegum" />
   
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
@@ -14,7 +15,7 @@
   <project name="poky" revision="refs/heads/dylan" remote="yocto" />
   <project name="meta-oe" revision="refs/heads/dylan"  remote="oe" path="poky/meta-openembedded" />
   <project name="meta-gumstix" revision="refs/heads/dylan"  remote="gumstix" path="poky/meta-gumstix" />
-  <project name="meta-gumstix-extras" revision="refs/heads/dylan" remote="gumstix" path="poky/meta-gumstix-extras" />
+  <project name="meta-gumstix-extras" revision="refs/heads/dylan" remote="sprucegum" path="poky/meta-gumstix-extras" />
   <project name="meta-ros" revision="refs/heads/master"  remote="ros" path="poky/meta-ros" />
 
 </manifest>
